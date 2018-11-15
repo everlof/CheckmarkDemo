@@ -7,23 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C49AF8FC219C417400E52415 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49AF8FB219C417400E52415 /* ViewController.swift */; };
 		DDA2E9062193557D00F38B19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA2E9052193557D00F38B19 /* AppDelegate.swift */; };
-		DDA2E9082193557D00F38B19 /* StepController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA2E9072193557D00F38B19 /* StepController.swift */; };
 		DDA2E90D2193557F00F38B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDA2E90C2193557F00F38B19 /* Assets.xcassets */; };
 		DDA2E9102193557F00F38B19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDA2E90E2193557F00F38B19 /* LaunchScreen.storyboard */; };
-		DDA2E91C21938E3A00F38B19 /* OnboardingFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA2E91B21938E3A00F38B19 /* OnboardingFlowController.swift */; };
 		DDA2E91E219392F500F38B19 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA2E91D219392F500F38B19 /* AnimationView.swift */; };
 		DDA2E9212193930C00F38B19 /* AnimationArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA2E9202193930C00F38B19 /* AnimationArchive.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C49AF8FB219C417400E52415 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DDA2E9022193557D00F38B19 /* CheckmarkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckmarkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA2E9052193557D00F38B19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DDA2E9072193557D00F38B19 /* StepController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepController.swift; sourceTree = "<group>"; };
 		DDA2E90C2193557F00F38B19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDA2E90F2193557F00F38B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDA2E9112193557F00F38B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDA2E91B21938E3A00F38B19 /* OnboardingFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowController.swift; sourceTree = "<group>"; };
 		DDA2E91D219392F500F38B19 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		DDA2E9202193930C00F38B19 /* AnimationArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationArchive.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,8 +86,7 @@
 		DDA2E91921938DE600F38B19 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				DDA2E91B21938E3A00F38B19 /* OnboardingFlowController.swift */,
-				DDA2E9072193557D00F38B19 /* StepController.swift */,
+				C49AF8FB219C417400E52415 /* ViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -180,10 +177,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C49AF8FC219C417400E52415 /* ViewController.swift in Sources */,
 				DDA2E9212193930C00F38B19 /* AnimationArchive.swift in Sources */,
-				DDA2E91C21938E3A00F38B19 /* OnboardingFlowController.swift in Sources */,
 				DDA2E91E219392F500F38B19 /* AnimationView.swift in Sources */,
-				DDA2E9082193557D00F38B19 /* StepController.swift in Sources */,
 				DDA2E9062193557D00F38B19 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,7 +319,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8C7439RJLG;
+				DEVELOPMENT_TEAM = SMQ3E8Y57T;
 				INFOPLIST_FILE = CheckmarkDemo/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -341,7 +337,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8C7439RJLG;
+				DEVELOPMENT_TEAM = SMQ3E8Y57T;
 				INFOPLIST_FILE = CheckmarkDemo/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
